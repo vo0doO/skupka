@@ -3,6 +3,6 @@
   <component name="Encoding">
     <file url="remoteDeploymentFS://&lt;4cc2fa05-70fd-4e6d-848b-9d503066b6e1&gt;/C:\Users\Елена\AppData\Roaming\webserver\skupka\index.html" charset="UTF-8" />
     <file url="remoteDeploymentFS://&lt;4cc2fa05-70fd-4e6d-848b-9d503066b6e1&gt;/C:\Users\Елена\AppData\Roaming\webserver\skupka\index.html" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/index.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/index.html" charset="UTF-8" />
   </component>
 </project>
