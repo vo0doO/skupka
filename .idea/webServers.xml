@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="4cc2fa05-70fd-4e6d-848b-9d503066b6e1" name="skupka" url="http://127.0.0.0:8080">
-        <fileTransfer port="0" mountedRoot="C:\Users\Елена\AppData\Roaming\webserver" accessType="MOUNT" />
+        <fileTransfer port="0" mountedRoot="C:\Users\Елена\AppData\Roaming\webserver\skupka" accessType="MOUNT" />
       </webServer>
     </option>
   </component>

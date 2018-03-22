@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="node" type="NodeJSConfigurationType" factoryName="Node.js" node-parameters=" --inspect-brk=63342 --prof --nologfile_per_isolate --logfile=v8-22-03-2018_12-23-45-.log --log-timer-events" working-dir="$PROJECT_DIR$">
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+      <profiling one-log-file="true" do-profile="true" />
+    </EXTENSION>
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+      <browser with-js-debugger="true" url="file://$PROJECT_DIR$/index.html" />
+    </EXTENSION>
+    <method />
+  </configuration>
+</component>
