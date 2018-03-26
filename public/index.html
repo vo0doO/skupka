@@ -4,252 +4,17 @@
     <title>Выкуп недвижимости в крыму</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//fonts.googleapis.com/css?family=Roboto:400,300,200,100&subset=latin,cyrillic" rel="stylesheet">
-    <!-- // [start style] -->
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        #headline {
-            padding: 0.8em;
-            color: white;
-            font-family: Roboto, helvetica, arial, sans-serif;
-            background-color: black;
-            background-image: url(hero.jpg);
-            background-size: cover;
-        }
-        #headline h1 {
-            font-weight: 200;
-            font-size: 60px;
-            line-height: 1em;
-            margin-bottom: 0;
-        }
-        #headline h2 {
-            font-weight: 200;
-            font-size: 30px;
-            margin-top: 5px;
-        }
-        #headline #blurb {
-            font-weight: 300;
-            font-size: 18px;
-        }
-        #headline #register {
-            background-color: #39b1a4;
-            background-color: rgba(57,177, 164, 0.7);
-            padding: 1em;
-        }
-        #headline #register h2 {
-            font-weight: 100;
-            padding: 0;
-            margin: 0;
-        }
-        #headline #register label {
-            font-size: 1.2em;
-            font-weight: 200;
-            padding-top: 12px;
-            display: block;
-        }
-        #headline #register input {
-            width: 100%;
-            font-size: 18px;
-            font-weight: 200;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-        #headline #register input[type=submit] {
-            background-color: hsl(8, 70%, 54%);
-            color: white;
-            margin-top: 20px;
-            padding: 10px;
-            border: none;
-            box-sizing: border-box;
-            font-size: 18px;
-        }
-        #section1, #section2, #section3 {
-            box-sizing: border-box;
-            padding: 20px;
-        }
-        #section1 h2, #section2 h2, #section3 h2  {
-            margin-top: 0;
-            font-size: 24px
-        }
-        #section1 {
-            background-color: white;
-            font-family: Roboto, sans-serif;
-            font-weight: 100;
-            font-size: 18px;
-        }
-        #section1 h2 {
-            font-weight: 300;
-            text-align: center;
-            margin-bottom: 0px;
-            margin-top: 20px;
-        }
-        #section1 h2 + p {
-        }
-        #section1 video {
-            width: 100%;
-        }
-        #section2 {
-            background-color: #e9e9e9;
-            font-family: Roboto, sans-serif;
-            font-weight: 100;
-            font-size: 18px;
-        }
-        #section2 h2 {
-            font-weight: 300;
-            text-align: center;
-            margin-bottom: 0px;
-            margin-top: 20px;
-        }
-        #section2 h2 + p {
-            text-align: center;
-        }
-        #section2 div {
-            text-align: center;
-        }
-        #section2 div img {
-            width: 100%
-        }
-        #section3 {
-            background-color: #f5f5f5;
-            font-family: Roboto, sans-serif;
-            font-weight: 100;
-            text-align: center;
-            margin: auto;
-        }
-        #section3 h2 {
-            font-weight: 300;
-            text-align: center;
-            margin-bottom: 0px;
-            margin-top: 20px;
-        }
-        #section3 h2 + p {
-            text-align: center;
-        }
-        #section3 figure {
-            text-align: center;
-        }
-        #section3 figure figcaption {
-            text-align: center;
-            font-weight: 400;
-        }
-        footer {
-            font-family: Roboto, sans-serif;
-            font-weight: 300;
-            text-align: center;
-            background-color: hsl(8, 70%, 54%);
-            color: white;
-            padding-bottom: 20px;
-            padding-top: 20px;
-        }
-        table {
-            margin-top: 26px;
-            width: 100%;
-        }
-        thead {
-            font-weight: bold;
-        }
-        tbody {
-            text-align: center;
-        }
-        /* // [START table-css] */
-        @media screen and (max-width: 600px) {
-            table thead {
-                display: none;
-            }
-            table td {
-                display: block;
-                position: relative;
-                padding-left: 50%;
-                padding-top: 13px;
-                padding-bottom: 13px;
-                text-align: left;
-                background: #e9e9e9;
-            }
-            table td:before {
-                content: attr(data-th) " :";
-                display: inline-block;
-                color: #000000;
-                background: #e9e9e9;
-                border-right: 2px solid transparent;
-                position: absolute;
-                top: 0;
-                left: 0;
-                bottom: 0;
-                width: 33%;
-                max-height: 100%;
-                font-size: 16px;
-                font-weight: 300;
-                padding-left: 13px;
-                padding-top: 13px;
-            }
-        }
-        /* // [END table-css] */
-        @media screen and (min-width: 600px) {
-            #headline {
-                padding: 20px 5%;
-            }
-
-            .container {
-                margin: auto;
-                max-width: 800px;
-            }
-            #headline #blurb {
-                float: left;
-                font-weight: 200;
-                width: 50%;
-                font-size: 18px;
-                box-sizing: border-box;
-                padding-right: 10px;
-            }
-            #headline br {
-                clear: both;
-            }
-            #headline #register {
-                float:right;
-                padding: 20px;
-                width: 50%;
-                box-sizing: border-box;
-                font-weight: 300;
-            }
-
-            #section1 #section2, #section3 {
-                box-sizing: border-box;
-                padding: 10px 20% 80px 20%;
-            }
-
-            #section1 h2, #section2 h2, #section3 h2  {
-                margin-top: 0;
-                font-size: 60px
-            }
-
-            #section1 ul {
-                box-sizing: border-box;
-                float: left;
-                width: 50%;
-                padding-right: 1em;
-            }
-
-            #section1 video {
-                box-sizing: border-box;
-                width: 50%;
-                float: right;
-            }
-            #section1 br {
-                clear: both;
-            }
-
-            #section2 div img {
-                width: 30%;
-                margin: 1%;
-                box-sizing: border-box;
-                border-radius: 50% 50%;
-                box-shadow: black 0px 0px 5px;
-            }
-        }
-    </style>
-    <!-- // [END style] -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="clientControl.js" scr="clientControl">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/4.12.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/4.12.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/4.12.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/4.12.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/4.12.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
 </head>
 <body>
 <!-- // [START headline] -->
@@ -416,7 +181,7 @@
 
 <!-- //  [START Firebase] -->
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
-
+<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase-firestore.js"></script>
 <script>
   // Initialize Firebase
   var config = {
@@ -428,7 +193,41 @@
     messagingSenderId: "146627230420"
   };
   firebase.initializeApp(config);
+  var db = firebase.firestore();
 </script>
+
+<!-- //  [START Firebase SDK] -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+            let app = firebase.app();
+            let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+            document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+            console.error(e);
+            document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+    });
+</script>
+<!-- //  [END Firebase SDK] -->
+
 <!-- //  [END Firebase] -->
+
+<!-- //  [ИМПОРТ QJERY] -->
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<!--// [ИМПОРТ КЛИЕНТСКОГО JS] -->
+<script src="clientControl.js"></script>
+<style src="slyle.css"></style>
 </body>
 </html>
