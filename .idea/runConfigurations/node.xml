@@ -4,7 +4,7 @@
       <profiling one-log-file="true" do-profile="true" />
     </EXTENSION>
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-      <browser with-js-debugger="true" url="file://$PROJECT_DIR$/index.html" />
+      <browser start="true" with-js-debugger="true" url="file://$PROJECT_DIR$/index.html" />
     </EXTENSION>
     <method />
   </configuration>
