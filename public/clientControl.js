@@ -1,29 +1,36 @@
+"use strict";
 $(function () {
-    $.get('/dreams', function (dreams) {
-        dreams.forEach(function (dream) {
-            $('<li></li>').text(dream).appendTo('ul#section1');
-        });
-    });
-
-    $('#register').submit(function (event) {
+    $("#register").submit(function (event) {
         event.preventDefault();
-        var data = {
-            "cookie": this.cookie,
-            "time": event.timeStamp,
-            "name": this.name.value,
-            "email": this.email.value,
-            "tel": this.tel.value,
-            "CI": window.clientInformation
-        };
+        var name = this.name.value;
+        var email = this.email.value;
+        var tel = this.tel.value;
+        var time = new Date();
+        var CI = this.clientInformation;
+
         this.name.value = "";
         this.email.value = "";
         this.tel.value = "";
 
-        var dataJSON = JSON.stringify(data);
-        var usJSON = JSON.parse(dataJSON);
+        function writeNewFeed(name, email, tel, time) {
+            var postData = {
+                name: name,
+                email: email,
+                tel: tel,
+                time: time,
+            };
 
-        /*$.post(`/dreams/${dataJSON}`, function() {
-            $('input').focus();
-    }, "application/x-www-form-urlencoded");*/
+            var newFeedKey = firebase.database().ref().child('feeds').push().key;
+
+            var updates = {};
+            updates['/feeds' + newFeedKey] = postData;
+
+            return firebase.database().ref().update(updates);
+        }
+
+        writeNewFeed(name, email, tel, time, CI);
+
+        time = "";
+        CI = ""
     });
 });
