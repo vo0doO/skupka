@@ -6,17 +6,28 @@
     <link href="//fonts.googleapis.com/css?family=Roboto:400,300,200,100&subset=latin,cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="script" href="clientControl.js" scr="clientControl">
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/4.12.0/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/4.12.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/4.12.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/4.12.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/4.12.0/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+
+    <script src="/__/firebase/4.12.0/firebase-app.js"></script>
+    <script src="/__/firebase/4.12.0/firebase-auth.js"></script>
+    <script src="/__/firebase/init.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+
 </head>
 <body>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBrmQzbLGYQvESUQrBNodOM5-_YgIimE7w",
+        authDomain: "doly-crim.firebaseapp.com",
+        databaseURL: "https://doly-crim.firebaseio.com",
+        projectId: "doly-crim",
+        storageBucket: "doly-crim.appspot.com",
+        messagingSenderId: "146627230420"
+    };
+    firebase.initializeApp(config);
+</script>
 <!-- // [START headline] -->
 <div id="headline">
     <div class="container">
@@ -146,7 +157,7 @@
 
 <!-- // [START footer] -->
 <footer>
-    <div class="container">
+    <!-- <div class="container"> -->
         <p>We always need a footer.</p>
     </div>
 </footer>
@@ -178,50 +189,6 @@
     init();
 </script>
 <!-- //  [END Google analytic] -->
-
-<!-- //  [START Firebase] -->
-<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase-firestore.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBrmQzbLGYQvESUQrBNodOM5-_YgIimE7w",
-    authDomain: "doly-crim.firebaseapp.com",
-    databaseURL: "https://doly-crim.firebaseio.com",
-    projectId: "doly-crim",
-    storageBucket: "doly-crim.appspot.com",
-    messagingSenderId: "146627230420"
-  };
-  firebase.initializeApp(config);
-  var db = firebase.firestore();
-</script>
-
-<!-- //  [START Firebase SDK] -->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-            let app = firebase.app();
-            let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-            document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-            console.error(e);
-            document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-    });
-</script>
-<!-- //  [END Firebase SDK] -->
-
-<!-- //  [END Firebase] -->
 
 <!-- //  [ИМПОРТ QJERY] -->
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="

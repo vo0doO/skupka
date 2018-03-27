@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "doly-crim"
+    "default": "doly-crim",
+    "y": "doly-crim"
   }
 }
