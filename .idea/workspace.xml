@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c213f61-bd23-4ad5-ad35-7aa5b55f4389" name="Default" comment="fix dirtree encoding and gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="4c213f61-bd23-4ad5-ad35-7aa5b55f4389" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/skupka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vo0doo-driver-ava.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vo0doo-home-ava.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vo0doo-hors-ava.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.rules.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firestore.indexes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firestore.rules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/detect-libc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/detect-libc.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-pre-gyp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-pre-gyp.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nopt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nopt.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rc.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/clientControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/clientControl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <ignored path="node_modules/" />
@@ -47,20 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="145" column="9" selection-start-line="144" selection-start-column="10" selection-end-line="145" selection-end-column="9" />
+            <state relative-caret-position="109">
+              <caret line="218" column="35" lean-forward="true" selection-start-line="218" selection-start-column="35" selection-end-line="218" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#noscript#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clientControl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="clientControl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/clientControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="255">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -104,10 +81,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/style.css" />
         <option value="$PROJECT_DIR$/firestore.rules" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/firebase.json" />
         <option value="$PROJECT_DIR$/database.rules.json" />
         <option value="$PROJECT_DIR$/public/clientControl.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -168,6 +145,11 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="node.js.selected.package.standard" value="C:\Users\Admin\AppData\Roaming\npm\node_modules\eslint" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\skupka\public" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,13 +215,20 @@
       <option name="presentableId" value="Default" />
       <updated>1522136192318</updated>
       <workItem from="1522136225164" duration="7431000" />
-      <workItem from="1522308112527" duration="7856000" />
+      <workItem from="1522308112527" duration="12011000" />
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="удалены лишние файлы, настроен firebase хостинг">
+      <created>1522316595366</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522316595366</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40898000" />
+    <option name="totallyTimeSpent" value="45053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,9 +244,9 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2797619" side_tool="true" weight="0.5220949" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7202381" visible="true" weight="0.3502825" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7202381" weight="0.47344634" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2749591" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19435029" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3242938" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.25718608" />
       <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.49702382" weight="0.32768363" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21515892" />
@@ -365,7 +354,8 @@
     <MESSAGE value="Коментарии и перевод++" />
     <MESSAGE value="UTF-8" />
     <MESSAGE value="fix dirtree encoding and gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix dirtree encoding and gitignore" />
+    <MESSAGE value="удалены лишние файлы, настроен firebase хостинг" />
+    <option name="LAST_COMMIT_MESSAGE" value="удалены лишние файлы, настроен firebase хостинг" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -665,17 +655,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/public/clientControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="145" column="9" selection-start-line="144" selection-start-column="10" selection-end-line="145" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/clientControl.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="109">
+          <caret line="218" column="35" lean-forward="true" selection-start-line="218" selection-start-column="35" selection-end-line="218" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#noscript#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
