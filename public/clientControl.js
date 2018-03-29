@@ -1,5 +1,6 @@
 "use strict";
-$(function () {
+
+$(() => {
     $("#register").submit(function (event) {
         event.preventDefault();
         var name = this.name.value;
@@ -13,7 +14,8 @@ $(function () {
         this.tel.value = "";
 
         function writeNewFeed(name, email, tel, time) {
-            var postData = {
+            var postData;
+            postData = {
                 name: name,
                 email: email,
                 tel: tel,
