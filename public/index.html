@@ -6,10 +6,13 @@
     <link href="//fonts.googleapis.com/css?family=Roboto:400,300,200,100&subset=latin,cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="script" href="clientControl.js" scr="clientControl">
-
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.7.0/firebaseui.css"/>
+    <script src="https://cdn.firebase.com/libs/firebaseui/2.7.0/firebaseui.js"></script>
     <script src="/__/firebase/4.12.0/firebase-app.js"></script>
     <script src="/__/firebase/4.12.0/firebase-auth.js"></script>
+    <script src='/__/firebase/4.12.0/firebase-messaging.js'></script>
     <script src="/__/firebase/init.js"></script>
+
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -172,12 +175,12 @@
 <!-- // [START footer] -->
 <footer>
     <!-- <div class="container"> -->
-        <p>We always need a footer.</p>
+    <p id="cl">We always need a footer.</p>
+    <div class="firebaseui-hidden" id="firebaseui-auth-container"></div>
     </div>
+
 </footer>
-<!-- // [END footer]
-
-
+<!-- // [END footer] -->
 <!-- Google Tag Manager (noscript) -->
 <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQZQ847"
@@ -252,6 +255,7 @@
         crossorigin="anonymous"></script>
 <!--// [ИМПОРТ КЛИЕНТСКОГО JS] -->
 <script src="clientControl.js"></script>
+<script src="firebase-messaging-sw.js"></script>
 <style src="slyle.css"></style>
 </body>
-</html>
+</html>    

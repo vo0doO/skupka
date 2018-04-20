@@ -3,7 +3,6 @@
   <component name="JSLintConfiguration" json="true">
     <option bitwise="true" />
     <option browser="true" />
-    <option couch="true" />
     <option devel="true" />
     <option es6="true" />
     <option eval="true" />

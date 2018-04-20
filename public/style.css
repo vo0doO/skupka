@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+.hidden {
+    display: none;
+}
+
 #headline {
     padding: 0.8em;
     color: white;
@@ -175,6 +179,10 @@ tbody {
     text-align: center;
 }
 
+.authui {
+    display: none;
+}
+
 /* // [START table-css] */
 @media screen and (max-width: 600px) {
     table thead {
@@ -207,6 +215,10 @@ tbody {
         font-weight: 300;
         padding-left: 13px;
         padding-top: 13px;
+    }
+
+    .authui {
+        display: none;
     }
 }
 
@@ -275,5 +287,9 @@ tbody {
         box-sizing: border-box;
         border-radius: 50% 50%;
         box-shadow: black 0px 0px 5px;
+    }
+
+    .authui {
+        display: none;
     }
 }
