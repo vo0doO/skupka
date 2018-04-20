@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c213f61-bd23-4ad5-ad35-7aa5b55f4389" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/firebase-messaging-sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/clientControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/clientControl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
     </list>
     <ignored path="node_modules/" />
     <ignored mask="*.log" />
@@ -21,14 +25,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="173" column="8" lean-forward="true" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+            <state relative-caret-position="1000">
+              <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
               <folding>
-                <element signature="n#script#3;n#head#0;n#html#0;n#!!top" />
-                <element signature="e#625#1041#0" />
-                <element signature="e#672#762#0" />
+                <element signature="e#898#1314#0" />
                 <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#1291#1609#0" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -66,21 +67,8 @@
                 <element signature="n#noscript#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#7150#7422#0" />
-                <element signature="e#7586#7786#0" />
-                <element signature="e#7647#7780#0" />
                 <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#7849#7924#0" />
-                <element signature="e#7949#8017#0" />
                 <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#8163#9010#0" />
-                <element signature="e#8210#8544#0" />
-                <element signature="e#8228#8508#0" />
-                <element signature="e#8283#8492#0" />
-                <element signature="e#8519#8534#0" />
-                <element signature="e#8672#8736#0" />
-                <element signature="e#8897#8970#0" />
-                <element signature="e#8976#9004#0" />
                 <element signature="n#noscript#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -88,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/style.css">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="139">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -100,8 +97,20 @@
       <file leaf-file-name="clientControl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/clientControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="440">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firebase-messaging-sw.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/firebase-messaging-sw.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +127,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>register</find>
+      <find>'</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -131,7 +144,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="google-auth" />
       </map>
     </option>
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
@@ -144,11 +157,15 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/firestore.rules" />
-        <option value="$PROJECT_DIR$/firebase.json" />
         <option value="$PROJECT_DIR$/database.rules.json" />
         <option value="$PROJECT_DIR$/public/style.css" />
+        <option value="$PROJECT_DIR$/public/manifest.json.js" />
+        <option value="$PROJECT_DIR$/public/firebase-messaging-sw.js" />
+        <option value="$PROJECT_DIR$/firebase.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/functions/package.json" />
         <option value="$PROJECT_DIR$/public/clientControl.js" />
+        <option value="$PROJECT_DIR$/functions/index.js" />
       </list>
     </option>
   </component>
@@ -183,6 +200,17 @@
             <path>
               <item name="skupka" type="b2602c69:ProjectViewProjectNode" />
               <item name="skupka" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skupka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skupka" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skupka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skupka" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -190,7 +218,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,7 +241,8 @@
     <property name="node.js.selected.package.jscs" value="C:\Users\Елена\AppData\Roaming\npm\node_modules\jscs" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="node.js.selected.package.standard" value="C:\Users\Admin\WebstormProjects\skupka\functions\node_modules\eslint" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -286,6 +314,9 @@
       <updated>1522136192318</updated>
       <workItem from="1522136225164" duration="7431000" />
       <workItem from="1522308112527" duration="12011000" />
+      <workItem from="1523528078466" duration="1812000" />
+      <workItem from="1524239799058" duration="799000" />
+      <workItem from="1524242443170" duration="15679000" />
     </task>
     <task id="LOCAL-00005" summary="удалены лишние файлы, настроен firebase хостинг">
       <created>1522316595366</created>
@@ -294,11 +325,25 @@
       <option name="project" value="LOCAL" />
       <updated>1522316595366</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="добавленна функция ауторизации через гугл">
+      <created>1523396548886</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523396548886</updated>
+    </task>
+    <task id="LOCAL-00007" summary="добавленна скрытая кнопка ауторизации через гугл">
+      <created>1523396626460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523396626460</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50207000" />
+    <option name="totallyTimeSpent" value="81256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,45 +356,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" weight="0.25718608" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22922637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19985673" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2797619" side_tool="true" weight="0.5220949" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7202381" weight="0.36005256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27463862" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7202381" weight="0.47344634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27419356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24960753" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34281844" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3951613" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46868008" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46895424" />
       <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.49702382" weight="0.32768363" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21515892" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.25718608" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24960753" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7202381" weight="0.47344634" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2749591" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.24916944" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="V8 CPU Profiling" order="5" weight="0.6650327" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46895424" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3242938" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2797619" side_tool="true" weight="0.5220949" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4940476" weight="0.4591503" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Duplicates" order="8" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="File Transfer" order="23" sideWeight="0.6376702" weight="0.44281045" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4940476" weight="0.4591503" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="V8 CPU Profiling" order="5" weight="0.6650327" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="13" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.2749591" />
@@ -359,18 +393,17 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32890365" />
+      <window_info anchor="bottom" id="Duplicates" order="14" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.24916944" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.46895424" />
+      <window_info anchor="bottom" id="V8 CPU Profiling" order="4" weight="0.6650327" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3611111" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2797619" side_tool="true" weight="0.5220949" />
-      <window_info anchor="bottom" id="Duplicates" order="14" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.7202381" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="File Transfer" order="0" sideWeight="0.63388807" weight="0.44281045" />
-      <window_info anchor="bottom" id="V8 CPU Profiling" order="4" weight="0.6650327" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4940476" weight="0.4599018" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -408,7 +441,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="fixed-firebase-hosting" />
+                        <option value="feeds-messages" />
                       </list>
                     </value>
                   </entry>
@@ -437,26 +470,32 @@
     <MESSAGE value="UTF-8" />
     <MESSAGE value="fix dirtree encoding and gitignore" />
     <MESSAGE value="удалены лишние файлы, настроен firebase хостинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="удалены лишние файлы, настроен firebase хостинг" />
+    <MESSAGE value="добавленна функция ауторизации через гугл" />
+    <MESSAGE value="добавленна скрытая кнопка ауторизации через гугл" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавленна скрытая кнопка ауторизации через гугл" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="http://localhost:63346/">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/firestore.indexes.json">
+    <entry file="file://$PROJECT_DIR$/public/firebase-messaging-sw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firestore.indexes.json" />
     <entry file="file://$PROJECT_DIR$/firebase.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -492,23 +531,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firestore.rules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/firestore.rules" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
           <folding>
-            <element signature="n#script#3;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#625#1041#0" />
-            <element signature="e#672#762#0" />
+            <element signature="e#898#1314#0" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#1291#1609#0" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -546,21 +576,8 @@
             <element signature="n#noscript#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#7150#7422#0" />
-            <element signature="e#7586#7786#0" />
-            <element signature="e#7647#7780#0" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#7849#7924#0" />
-            <element signature="e#7949#8017#0" />
             <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#8163#9010#0" />
-            <element signature="e#8210#8544#0" />
-            <element signature="e#8228#8508#0" />
-            <element signature="e#8283#8492#0" />
-            <element signature="e#8519#8534#0" />
-            <element signature="e#8672#8736#0" />
-            <element signature="e#8897#8970#0" />
-            <element signature="e#8976#9004#0" />
             <element signature="n#noscript#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -571,20 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firebase.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -695,9 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/@firebase/logger/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/@firebase/util/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-833" />
@@ -775,9 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/yargs/lib/parser.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/protobufjs/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
@@ -785,26 +782,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/is-windows/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/firebase-debug.log" />
+    <entry file="file://$PROJECT_DIR$/firebase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="17">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/firebase-messaging-sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="173" column="8" lean-forward="true" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+        <state relative-caret-position="1000">
+          <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
           <folding>
-            <element signature="n#script#3;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#625#1041#0" />
-            <element signature="e#672#762#0" />
+            <element signature="e#898#1314#0" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#1291#1609#0" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -842,31 +858,32 @@
             <element signature="n#noscript#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#7150#7422#0" />
-            <element signature="e#7586#7786#0" />
-            <element signature="e#7647#7780#0" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#7849#7924#0" />
-            <element signature="e#7949#8017#0" />
             <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#8163#9010#0" />
-            <element signature="e#8210#8544#0" />
-            <element signature="e#8228#8508#0" />
-            <element signature="e#8283#8492#0" />
-            <element signature="e#8519#8534#0" />
-            <element signature="e#8672#8736#0" />
-            <element signature="e#8897#8970#0" />
-            <element signature="e#8976#9004#0" />
             <element signature="n#noscript#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/clientControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="440">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
