@@ -13,7 +13,7 @@ $(() => {
         this.email.value = "";
         this.tel.value = "";
 
-        function writeNewFeed(name, email, tel, time) {
+        function writeNewFeed() {
             var postData;
             postData = {
                 name: name,
@@ -30,12 +30,28 @@ $(() => {
             return firebase.database().ref().update(updates);
         }
 
+        function sms(name, email, tel, time) {
+            return client.messages.create({
+                to: '+79214447344',
+                from: '+79214447344',
+                body: `${name}, ${email}, ${tel}, ${time}`
+            })
+                .then((message) => {
+                    console.log(message.sid);
+                    return client.sendMessage(message)
+                })
+                .catch((error) => console.error("ошибка sms", error))
+        }
+
+
         writeNewFeed(name, email, tel, time, CI);
+        sms(name, email, tel, time);
 
         time = "";
         CI = ""
     });
 });
+
 
 var uiConfig = {
     signInSuccessUrl: '/',

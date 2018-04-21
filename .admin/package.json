@@ -1,0 +1,32 @@
+{
+  "name": "skupka",
+  "version": "0.0.1",
+  "description": "Выкуп недвижимости в крыму",
+  "main": "index.js",
+  "author": "danilakirsanovspb@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "twilio": "^3.15.1",
+    "escape-html": "^1.0.3",
+    "firebase": "^3.0.0",
+    "firebase-admin": "^5.12.0",
+    "node-schedule": "^1.1.0",
+    "nodemailer": "^2.4.1",
+    "promise": "^7.1.1",
+    "express": "*"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vo0doo/skupka.git"
+  },
+  "keywords": [
+    "node",
+    "firebase"
+  ]
+}
